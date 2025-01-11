@@ -13,8 +13,7 @@ app.get('/', (req, res) => {
     } catch (error) {
         console.error(error)
     }
-    }
-    
+ }    
 )
 
 app.get('/cards', async (req, res) => {
@@ -24,8 +23,7 @@ app.get('/cards', async (req, res) => {
     } catch (error) {
         console.error(error)
     }
- }
-    
+ }    
 )
 
 app.post('/cards', async (req, res) => {
@@ -36,8 +34,7 @@ app.post('/cards', async (req, res) => {
     } catch (error) {
         console.error(error)
     }
-    }
-    
+ }    
 )
 
 app.put('/cards/:id', async (req, res) => {
@@ -49,8 +46,7 @@ app.put('/cards/:id', async (req, res) => {
     } catch (error) {
         console.error(error)
     }
-    }
-    
+ }
 )
 
 
@@ -62,8 +58,7 @@ app.delete('/cards/:id', async (req, res) => {
     } catch (error) {
         console.error(error)
     }
-    }
-    
+ }
 )
 
 app.listen(5000, () => {
@@ -72,6 +67,5 @@ app.listen(5000, () => {
     } catch (error) {
         console.error(error)
     }
-    }
-    
+ }    
 )
