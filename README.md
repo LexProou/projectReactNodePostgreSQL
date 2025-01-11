@@ -1,9 +1,9 @@
 # project React Node PostgreSQL
-### - создайте базу данных PostgreSQL с таблицей CARDS(id, title, text)
-### - создайте файл .env и заполните своими данными
-## Запуск Development сервера
+### - create a PostgreSQL database with a "CARDS" table that has the following columns: "id", "title", and "text".
+### - create a file named ".env" and fill it with the necessary information.
+## Launching the development server:
 #### `cd server`
 #### `npm run start`
-## Запуск приложения:
+## Launching the app:
 #### `cd frontend`
 #### `npm run dev`
