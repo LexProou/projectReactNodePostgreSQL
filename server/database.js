@@ -16,7 +16,6 @@ export const client = new Client({
 
 client.connect();
 
-
 client.query(`SeLECT * FROM cards`, (err, res) => {
     if (err) {
         console.log(err.stack)
